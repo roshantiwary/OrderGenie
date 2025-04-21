@@ -13,24 +13,12 @@ In the ever-evolving world of AI-driven solutions, integrating diverse capabilit
         Our AI agent, OrderGenie, serves as an interactive chatbot that helps users manage their orders by interfacing with a SQL database. Using LangGraph and Gemini, the agent efficiently interacts with users, providing purchase histories, managing returns, and handling cancellations—all while ensuring data privacy and accuracy.
 
 # Key AI Capabilities Integrated
-        * Structured Output:
-            Description: The agent utilizes structured output to perform specific functions, such as invoking database query tools via predefined interfaces.
-             Significance: This enhances clarity and consistency in the user's interaction with the AI, ensuring that the output is predictable and well-organized, especially when displaying order details or transaction summaries.
-        * Function Calling:
-            Description: By leveraging decorated Python functions, the agent invokes precise operations like listing tables, describing schemas, and executing queries.
-             Significance: Function calling modularizes the operations, ensuring dependable interactions with the database. This abstraction allows the AI to handle complex tasks efficiently while presenting a simple interface to the user.
-        * Controlled Generation:
-            Description: The AI is trained to follow given instructions, keeping conversations focused and directed toward specific outcomes, like querying order details.
-            Significance: Controlled generation maintains the relevance and coherence of interactions, which is crucial for professional and accurate customer service engagements, preventing deviations into unrelated topics.
-        * Agents:
-            Description: OrderGenie functions as a self-contained agent, autonomously managing conversation flow and task execution without needing external prompts.
-            Significance: This autonomy enables the AI to streamline operations by handling routine tasks, reducing the need for human oversight and increasing service scalability.
-        * Few-shot Prompting:
-            Description: The agent is guided using a few examples included in the instructions, showing typical user interactions to guide response generation.
-            Significance: Few-shot prompting equips the AI with the ability to respond appropriately to similar scenarios, enhancing its adaptability and accuracy even when encountering limited data.
-        * Grounding:
-             Description: The AI ensures its responses are based on factual data from the database, validating information before presenting it to the user.
-            Significance: Grounding enhances the credibility of responses by tying them to verifiable data, reducing errors, and building user trust.
+* **Structured Output**: The agent utilizes structured output to perform specific functions, such as invoking database query tools via predefined interfaces.This enhances clarity and consistency in the user's interaction with the AI, ensuring that the output is predictable and well-organized, especially when displaying order details or transaction summaries.
+* **Function Calling**: By leveraging decorated Python functions, the agent invokes precise operations like listing tables, describing schemas, and executing queries. Function calling modularizes the operations, ensuring dependable interactions with the database. This abstraction allows the AI to handle complex tasks efficiently while presenting a simple interface to the user.
+* **Controlled Generation**: The AI is trained to follow given instructions, keeping conversations focused and directed toward specific outcomes, like querying order details. Controlled generation maintains the relevance and coherence of interactions, which is crucial for professional and accurate customer service engagements, preventing deviations into unrelated topics.
+* **Agents**: OrderGenie functions as a self-contained agent, autonomously managing conversation flow and task execution without needing external prompts. This autonomy enables the AI to streamline operations by handling routine tasks, reducing the need for human oversight and increasing service scalability.
+* **Few-shot Prompting**: The agent is guided using a few examples included in the instructions, showing typical user interactions to guide response generation. Few-shot prompting equips the AI with the ability to respond appropriately to similar scenarios, enhancing its adaptability and accuracy even when encountering limited data.
+* **Grounding**: The AI ensures its responses are based on factual data from the database, validating information before presenting it to the user. Grounding enhances the credibility of responses by tying them to verifiable data, reducing errors, and building user trust.
 
 ## **IMPORTANT!**
 
